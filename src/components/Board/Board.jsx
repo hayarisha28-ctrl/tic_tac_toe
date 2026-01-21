@@ -2,7 +2,7 @@ import React from "react";
 import Square from "../Square/Square.jsx";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import "./board.css";
+import "./Board.css";
 import calculateWinner from "../../logic.js";
 
 export default function Board({ board, xTurn, onPlay }) {
